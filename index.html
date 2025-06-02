@@ -111,6 +111,15 @@
     title="Booking Form"
   ></iframe>
 </section>
+  <script>
+  var d = document, w = "https://tally.so/widgets/embed.js";
+  if (!d.querySelector(script[src="${w}"])) {
+    var s = d.createElement("script");
+    s.src = w;
+    s.onload = () => Tally.loadEmbeds();
+    d.body.appendChild(s);
+  }
+</script>
 
   <header>
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">

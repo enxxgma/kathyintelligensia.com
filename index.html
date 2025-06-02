@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" href="logo.jpg" type="image/jpeg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Airport Bliss House - Kisumu</title>
@@ -111,12 +112,39 @@
       margin-top: 2rem;
     }
   </style>
+  @media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery img {
+    width: 90%;
+    height: auto;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  form input, form textarea, form select, form button {
+    font-size: 1rem;
+  }
+}
 </head>
 <body>
 
   <header>
     <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-      <img src="main/logo.jpg" alt="Airport Bliss House Logo" title="Airport Bliss House" loading="lazy">
+      <img src="logo.jpg" alt="Airport Bliss House Logo" title="Airport Bliss House" loading="lazy">
       <h1>Airport Bliss House</h1>
       <p>One-bedroom Airbnb stay next to Kisumu International Airport</p>
     </div>
@@ -125,12 +153,12 @@
   <div class="container">
 
     <section class="gallery">
-      <img src="main/living room.jpg" alt="Cozy living room interior" title="Living Room" loading="lazy">
-      <img src="main/toilet.jpg" alt="Clean and modern washroom" title="Washroom" loading="lazy">
-      <img src="main/itchen.jpg" alt="Fully equipped kitchen area" title="Kitchen" loading="lazy">
-      <img src="main/image2.jpg" alt="Front view of Airport Bliss House" title="Front View" loading="lazy">
-      <img src="main/view.jpg" alt="Balcony view overlooking Kisumu Airport" title="Balcony View" loading="lazy">
-      <img src="main/bedroom.jpg" alt="Comfortable and serene bedroom" title="Bedroom" loading="lazy">
+      <img src="living room.jpg" alt="Cozy living room interior" title="Living Room" loading="lazy">
+      <img src="toilet.jpg" alt="Clean and modern washroom" title="Washroom" loading="lazy">
+      <img src="itchen.jpg" alt="Fully equipped kitchen area" title="Kitchen" loading="lazy">
+      <img src="image2.jpg" alt="Front view of Airport Bliss House" title="Front View" loading="lazy">
+      <img src="view.jpg" alt="Balcony view overlooking Kisumu Airport" title="Balcony View" loading="lazy">
+      <img src="bedroom.jpg" alt="Comfortable and serene bedroom" title="Bedroom" loading="lazy">
     </section>
 
     <section class="info">
